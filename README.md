@@ -1,13 +1,16 @@
-Como parte importante de avaliação para Faculdades e Universidades no Brasil é importante podermos ter uma plataforma onde essas instituições possam consultar o ranking do resultado do Enade por Instituição, Curso ou Aluno.
+As an important part of evaluation for Colleges and Universities in Brazil it is important to have a platform where these institutions can consult the ranking of the result of Enade by Institution, Course or Student.
 
-Instalação:
-Vá para https://github.com/weto/sebe e faça o download da última versão.
+Installation:
+Go to https://github.com/weto/sebe and download the latest version.
 
-Dependências:
+Dependencies:
 Nodejs Lts
 
-Construindo a aplicação:
-Rodar o comando 'npm install' e 'npm start'. 
+Building the application:
+Run the command on the terminal 'npm install' and 'npm start'.
 
-Utilizando a aplicação:
-Entrar no endereço localhost/sebe-adm/admin/instituitions.
+When you finish executing the above script, a screen will open in the browser with the address http: // localhost: 3003.
+
+Putting the application into production:
+Run the command on the terminal 'npm run build'.
+It will be creating a folder in the build at the root of the Project.
