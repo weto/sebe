@@ -16,3 +16,6 @@ When you finish executing the above script, a screen will open in the browser wi
 Putting the application into production:
 Run the command on the terminal 'npm run build'.
 It will be creating a folder in the build at the root of the Project.
+
+Accessing the project production:
+Enter https://sebe.herokuapp.com
