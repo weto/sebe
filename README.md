@@ -8,6 +8,10 @@ Go to https://github.com/weto/sebe and download the latest version.
 Dependencies:
 Nodejs Lts
 
+Technologies used:
+Reactjs
+Redux
+
 Building the application:
 Run the command on the terminal 'npm install' and 'npm start'.
 
