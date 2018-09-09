@@ -1,7 +1,8 @@
 import axios from 'axios';
+import urlApi from '../../config';
 
 const onLoadListService = axios.create({
-    baseURL: `http://www.homologacao.mangabr.com.br/services/notes`,
+    baseURL: urlApi,
     timeout: 20000,
 });
 
@@ -18,7 +19,7 @@ export async function onLoadList(event){
 
 export async function onSearchList(event){
     const param = event.tipoPesquisa.concat('-').concat(event.campoPesquisa);
-    const performances = await axios.get('http://www.homologacao.mangabr.com.br/services/notes/'.concat(param)).then((retorno) => {
+    const performances = await axios.get(urlApi.concat(param)).then((retorno) => {
         return retorno.data.Model;
     })
 
