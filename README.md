@@ -12,10 +12,13 @@ Technologies used:
 Reactjs
 Redux
 
+Changing API service connection.
+Change the service url in the $PATH/src/config.js file.
+
 Building the application:
 Run the command on the terminal 'npm install' and 'npm start'.
 
-When you finish executing the above script, a screen will open in the browser with the address http: // localhost: 3003.
+When you finish executing the above script, a screen will open in the browser with the address http://localhost:3003.
 
 Putting the application into production:
 Run the command on the terminal 'npm run build'.
