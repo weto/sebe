@@ -8,7 +8,7 @@ import {onLoadList} from './redux/EnadeAction';
 
 class TabelaInstituicao extends Component {
 
-	componentDidMount() {
+	componentWillMount() {
 		this.props.onLoadList(this);
 	}
 
